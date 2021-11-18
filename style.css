@@ -122,6 +122,7 @@
     .header .box-container img {
         height: 800px;
         max-width: 100%;
+        border-bottom: 2px dashed white;
         object-fit: cover;
     }
     
@@ -472,4 +473,19 @@
     .footer .box-container .box p:hover {
         text-decoration: underline;
         color: white;
+    }
+    
+    .credit {
+        text-align: center;
+        color: white;
+        margin-bottom: 10px;
+    }
+    
+    .credit i {
+        color: red;
+    }
+    
+    hr {
+        width: 90%;
+        margin: 20px auto;
     }
